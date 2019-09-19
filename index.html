@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Monster headphones</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <header>
+                <nav>
+                    <div class="navbar">
+                            <div class="brand">
+                                <a href="index.html"><span>Dragon</span>
+                                    <p>Headphones</p></a>
+                            </div>
+                            <div class="navitems">
+                                <ul>
+                                    <li><a href="#">Models</a></li>
+                                    <li><a href="#brand">Brand</a></li>
+                                    <li><a href="#">Shop</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </div>
+                    </div>
+                </nav>
+
+                <section id="product">
+                    <div class="product">
+                        <img src="s1w.png" alt="s1">
+                    </div>
+                    <div class="product-title">
+                        <div class="card">
+                                <h3>Latest</h3>
+                                <h1>DRX 5543</h1>
+                                <h5>With 10 Hours Lasting Battery</h5>
+                                <button>Shop Now</button>
+                        </div>
+                    </div>
+                </section>
+            </header>
+
+           <div class="main-content">
+                <section class="brand">
+                        <article id="brand">
+                            <h1>Why us?</h1>
+                            <p>
+                                Monster is now the world's leading manufacturer of high performance cables that connect audio/video components for home, car and professional use as well as computers and computer games. Monster Cable is an indispensable component for music lovers, audiophiles, recording studios, sound professionals, musicians, custom-installers and home theatre enthusiasts. Monster's audio cables increase the clarity, dynamics and power of the audio signals that travel through them.
+                            </p>
+                        </article>
+                    </section>
+        
+                    <section id="trending">
+                        <h1>trending</h1>
+                        <div class="cor-left">
+                            <button>&lt;</button>
+                        </div>
+                        <div class="trending">
+                            <div class="p1 slide fade">
+                                <img src="s2w.png" alt="s2w">
+                                <div class="name">
+                                    <p>B443 BASS BOOSTER</p>
+                                    <p><span>$</span>110</p>
+                                </div>
+                            </div>
+                            <div class="p2 slide fade">
+                                <img src="s3w.png" alt="s3w">
+                                <div class="name">
+                                    <p>B443 BASS BOOSTER(BLACK)</p>
+                                    <p><span>$</span>130</p>
+                                </div>
+                            </div>
+                            <div class="p3 slide fade">
+                                <img src="s4w.png" alt="s4w">
+                                <div class="name">
+                                    <p>DRX NOISE </p>
+                                    <p><span>$</span>160</p>
+                                </div>
+                            </div>
+                            <div class="p4 slide fade">
+                                <img src="s5w.png" alt="s5w">
+                                <div class="name">
+                                    <p>XXCT STEREO (SPECIAL EDITION)</p>
+                                    <p><span>$</span>200</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cor-right">
+                            <button>&gt;</button>
+                        </div>
+                    </section>
+        
+                    <section class="Categories">
+                        <h1> Shop By Categories</h1>
+                        <div class="category">
+                            <img src="242886_thumb.png" alt="cat2">
+                            <a href="javascript:void(0)">Headphones</a>
+                        </div>
+                        <div class="category"> 
+                            <img src="hero-ep-630.png" alt="cat2">
+                            <a href="javascript:void(0)">Earphones</a>
+                        </div>
+                    </section>
+        
+           </div>
+
+           <div id="contact">
+                <section class="contact">
+                        <h1>Contact us</h1>
+                        <form>
+                            <label for="name">Enter Full Name:</label>
+                            <input type="text" placeholder="Enter Name..">
+                            <label for="email">Enter Email:</label>
+                            <input type="email" placeholder="Enter email..">
+                            <label for="message">Enter Message:</label>
+                            <input type="textbox" placeholder="Enter message..">
+                            <button>Submit</button>
+                        </form>
+                    </section>
+           </div>
+
+            <footer>
+                <p>Created With  <span class="heart">&#10084;</span>  By <i><dtrong>Nidhi Panchal</dtrong></i><span class="date"> September 2019</span> </p>
+            </footer>
+        </main>
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+        <script>
+           $(".cor-left" ).click(function(){
+               $(".slide").css({"transform":"translateX(-70%)","transition":"0.8s all ease"});
+           });
+           $(".cor-right" ).click(function(){
+               $(".slide").css({"transform":"translateX(30%)","transition":"0.8s all ease"});
+           });
+          
+        </script>
+    </body>
+</html>

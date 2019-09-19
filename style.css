@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lexend+Mega&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+html, body, div, p {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin-top: -20px;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("bg.jpg");
+}
+
+header #product .product {
+  width: 70%;
+  float: right;
+}
+
+header #product .product img {
+  height: 90vh;
+  -webkit-transform: translate(-15%, 11%);
+          transform: translate(-15%, 11%);
+}
+
+header #product .product-title {
+  height: 90vh;
+  -webkit-transform: translate(0%, 11%);
+          transform: translate(0%, 11%);
+}
+
+header #product .product-title .card {
+  width: 30%;
+  -webkit-transform: translate(18%, 80%);
+          transform: translate(18%, 80%);
+}
+
+header #product .product-title .card h3 {
+  font-family: sans-serif;
+  font-weight: lighter;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: #a3a0a0;
+}
+
+header #product .product-title .card h1 {
+  font-family: 'Lexend',sans-serif;
+  letter-spacing: 0.2em;
+  font-size: 60px;
+  line-height: 0.1;
+  color: #fff;
+  font-style: italic;
+}
+
+header #product .product-title .card h5 {
+  font-family: 'Lexend',sans-serif;
+  letter-spacing: 0.2em;
+  font-size: 14px;
+  color: #a3a0a0;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+header #product .product-title .card button {
+  background: #f85a4f;
+  border: none;
+  padding: 10px 50px;
+  color: #fff;
+  font-size: 20px;
+}
+
+header nav {
+  width: 100%;
+  padding-top: 20px;
+  display: inline-block;
+  position: fixed;
+  z-index: 10;
+  -webkit-transition: all 360ms ease-out;
+  transition: all 360ms ease-out;
+}
+
+header nav .navbar {
+  width: 80%;
+  -webkit-transform: translateX(10%);
+          transform: translateX(10%);
+}
+
+header nav div {
+  display: inline-block;
+}
+
+header nav .brand {
+  font-size: 25px;
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+}
+
+header nav .brand span {
+  color: red;
+  font-size: 40px;
+}
+
+header nav .brand p {
+  line-height: 0.5em;
+  font-weight: lighter;
+  padding-left: 20px;
+  color: #fff;
+}
+
+header nav .brand a {
+  text-decoration: none;
+}
+
+header nav .navitems {
+  float: right;
+  font-family: 'Lexend Mega', sans-serif;
+}
+
+header nav .navitems ul {
+  display: block;
+  margin: 0px;
+}
+
+header nav .navitems li {
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+}
+
+header nav .navitems li:hover {
+  border-bottom: 3px solid #f85a4f;
+}
+
+header nav .navitems li:hover a {
+  color: #f85a4f;
+}
+
+header nav .navitems li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-content {
+  width: 80%;
+  -webkit-transform: translateX(12%);
+          transform: translateX(12%);
+}
+
+.main-content section {
+  font-family: 'Roboto',sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 18px;
+  padding: 40px;
+  text-align: center;
+}
+
+.main-content section h1 {
+  font-family: 'Lexend Mega', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+}
+
+.main-content #trending .cor-left button {
+  -webkit-transform: translate(-550px, 160px);
+          transform: translate(-550px, 160px);
+  font-size: 50px;
+  cursor: pointer;
+  padding: 0 10px;
+  border-radius: 50%;
+  background: none;
+  border: none;
+  -webkit-box-shadow: 0px 0px 5px #919492;
+          box-shadow: 0px 0px 5px #919492;
+}
+
+.main-content #trending .cor-left button:hover {
+  -webkit-box-shadow: 0px 0px 10px #919492;
+          box-shadow: 0px 0px 10px #919492;
+  -webkit-transition: 0.8s all ease;
+  transition: 0.8s all ease;
+}
+
+.main-content #trending .cor-right button {
+  -webkit-transform: translate(550px, -160px);
+          transform: translate(550px, -160px);
+  font-size: 50px;
+  cursor: pointer;
+  padding: 0 10px;
+  border-radius: 50%;
+  background: none;
+  border: none;
+  -webkit-box-shadow: 0px 0px 5px #919492;
+          box-shadow: 0px 0px 5px #919492;
+}
+
+.main-content #trending .cor-right button:hover {
+  -webkit-box-shadow: 0px 0px 10px #919492;
+          box-shadow: 0px 0px 10px #919492;
+  -webkit-transition: 0.8s all ease;
+  transition: 0.8s all ease;
+}
+
+.main-content #trending .trending {
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  -webkit-transition: 0.8s all ease;
+  transition: 0.8s all ease;
+}
+
+.main-content #trending .trending .slide {
+  height: 220px;
+  width: 300px;
+  margin: 10px;
+  padding: 10px 5px;
+  border-radius: 5%;
+  scroll-behavior: smooth;
+  background: rgba(237, 235, 235, 0.7);
+  -webkit-box-shadow: 0px 0px 10px #c2bcbc;
+          box-shadow: 0px 0px 10px #c2bcbc;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+.main-content #trending .trending .slide:hover {
+  -webkit-box-shadow: 0px 0px 10px #232423;
+          box-shadow: 0px 0px 10px #232423;
+  background-image: url("download.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.main-content #trending .trending .slide > div {
+  scroll-snap-align: start;
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
+}
+
+.main-content #trending .trending .slide img {
+  width: 300px;
+  border: none;
+}
+
+.main-content .Categories {
+  margin: 0px 0px 30px 0px;
+}
+
+.main-content .Categories div {
+  position: relative;
+  width: 40%;
+  height: 500px;
+  display: inline-block;
+  background-color: #000;
+  margin: 10px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 10px #232423;
+          box-shadow: 0px 0px 10px #232423;
+}
+
+.main-content .Categories div:hover {
+  -webkit-box-shadow: 0px 0px 30px #030303;
+          box-shadow: 0px 0px 30px #030303;
+  -webkit-transition: 0.8s all ease;
+  transition: 0.8s all ease;
+  width: 43%;
+  height: 550px;
+}
+
+.main-content .Categories div a {
+  z-index: 1;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-content .Categories img {
+  height: 80%;
+  width: 100%;
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+}
+
+#contact {
+  text-align: center;
+  background-image: url("ds.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 10px;
+}
+
+#contact .contact {
+  width: 60%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: 'Lexend Mega', sans-serif;
+}
+
+#contact .contact h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+#contact .contact form {
+  width: 70%;
+  margin: auto;
+  display: block;
+  font-size: 20px;
+}
+
+#contact .contact form label {
+  width: 100%;
+}
+
+#contact .contact form input {
+  width: 100%;
+  padding: 7px 4px;
+  margin: 10px 0px;
+  border: 1px solid #000;
+}
+
+#contact .contact form input::-webkit-input-placeholder {
+  color: #000;
+}
+
+#contact .contact form input:-ms-input-placeholder {
+  color: #000;
+}
+
+#contact .contact form input::-ms-input-placeholder {
+  color: #000;
+}
+
+#contact .contact form input::placeholder {
+  color: #000;
+}
+
+#contact .contact form button {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  font-family: 'Lexend Mega', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4ae04a), color-stop(60%, #099609));
+  background-image: linear-gradient(#4ae04a 0%, #099609 60%);
+  margin-bottom: 40px;
+}
+
+#contact .contact form button:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #099609), color-stop(90%, #4ae04a));
+  background-image: linear-gradient(#099609 30%, #4ae04a 90%);
+  -webkit-box-shadow: 0px 0px 10px #030303;
+          box-shadow: 0px 0px 10px #030303;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+footer {
+  font-size: 15px;
+  font-family: 'Lexend Mega', sans-serif;
+  text-transform: uppercase;
+  background: #000;
+  color: #fff;
+  padding: 30px;
+}
+
+footer .heart {
+  color: #e80e1d;
+}
+
+footer .date {
+  float: right;
+}
+/*# sourceMappingURL=style.css.map */
